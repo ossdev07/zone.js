@@ -5,5 +5,4 @@ module.exports = function (config) {
   config.plugins.push(require('karma-jasmine'));
   config.plugins.push(require('karma-chrome-launcher'));
   config.frameworks.push('jasmine');
-  config.browsers.push(['ChromeHeadless']);
 };
