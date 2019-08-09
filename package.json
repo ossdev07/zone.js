@@ -31,7 +31,6 @@
     "karma-jasmine:phantomjs": "karma start karma-build-jasmine-phantomjs.conf.js --single-run",
     "karma-jasmine:single": "karma start karma-build-jasmine.conf.js --single-run",
     "karma-jasmine:autoclose": "npm run karma-jasmine:single && npm run ws-client",
-    "karma-jasmine-phantomjs:autoclose": "npm run karma-jasmine:phantomjs && npm run ws-client",
     "lint": "gulp lint",
     "prepublishOnly": "tsc && gulp build",
     "promisetest": "gulp promisetest",
